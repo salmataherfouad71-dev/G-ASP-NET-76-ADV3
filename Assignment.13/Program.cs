@@ -1,4 +1,6 @@
-﻿namespace Assignment._13
+﻿using System.ComponentModel;
+
+namespace Assignment._13
 {
     internal class Program
     {
@@ -39,6 +41,33 @@
             //    stringGrades.Add($"Grade: {grade}");
             //}
             //Print (stringGrades);
+            #endregion
+            #region Exercise2
+            ////1)
+            //SortedDictionary<int, string> leaderboard = new SortedDictionary<int, string>(new KeyCompare());
+            //leaderboard.Add(500 , "Ahmed");
+            //leaderboard.Add(200 , "Sara");
+            //leaderboard.Add(800 , "Ali");
+            //leaderboard.Add(350 , "Mona");
+            ////2)
+            //foreach (KeyValuePair<int, string> entry in leaderboard)
+            //{
+            //    Console.WriteLine($"{entry.Value}:{entry.Key}");
+            //}
+            ////3)
+            //Console.WriteLine($"First Key:{leaderboard.Keys.First()}");
+            //Console.WriteLine($"First value:{leaderboard.Values.First()}");
+            ////4)
+            //Console.WriteLine($"Is key 500 exists?{leaderboard.TryGetValue(500,out string value)}");
+            ////5)
+            //Console.WriteLine($"Is Key 999 exists?{leaderboard.TryGetValue(999, out string value1)}\n999:{value1}");
+            ////6)
+            //Console.WriteLine("After Removing Key 200:");
+            //leaderboard.Remove(200);
+            //foreach (KeyValuePair<int, string> entry in leaderboard)
+            //{
+            //    Console.WriteLine($"{entry.Value}:{entry.Key}");
+            //}
             #endregion
         }
         static void Print<T>(List<T>list)
