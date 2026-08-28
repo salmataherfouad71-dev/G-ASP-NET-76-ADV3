@@ -69,6 +69,44 @@ namespace Assignment._13
             //    Console.WriteLine($"{entry.Value}:{entry.Key}");
             //}
             #endregion
+            #region Exercise3
+            //1)
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>()
+            //{
+            //    { "Ahmad","01111"},
+            //    { "Mona","02222"},
+            //    { "Salma","03333"},
+            //    { "Omar","04444"}
+            //};
+            ////2)
+            //phoneBook["Ali"]="05555";
+            ////3)
+            //try
+            //{
+            //    phoneBook.Add("Salma", "09878");
+            //}
+            //catch (Exception ex)
+            //{
+            //    Console.WriteLine("Exception!"+ex);
+            //}
+            ////4)
+            //Console.WriteLine($"Is Adding To Ali Available? {phoneBook.TryAdd("Ali","0789")}");
+            ////5)
+            //Console.WriteLine($"Is Sarah exist? {phoneBook.ContainsKey("Sarah")}");
+            ////6)
+            //Console.Write("Is Sarah Found? ");
+            //Console.WriteLine(phoneBook.TryGetValue("Sarah",out string phoneNumber)?phoneNumber: "Not Found");
+            ////7)
+            //foreach (KeyValuePair<string, string> item in phoneBook)
+            //{
+            //    Console.Write($"{item.Key} ");
+            //}
+            //Console.WriteLine();
+            //foreach (KeyValuePair<string, string> item in phoneBook)
+            //{
+            //    Console.Write($"{item.Value} ");
+            //}
+            #endregion
         }
         static void Print<T>(List<T>list)
         {
