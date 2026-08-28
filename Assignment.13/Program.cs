@@ -132,6 +132,28 @@ namespace Assignment._13
             ////6)
             //Console.WriteLine($"[1,2] is a subset of Set A?{A.IsSubsetOf(C)}");
             #endregion
+            #region Exercise5
+            //Queue<string> documents = new Queue<string>();
+            //documents.Enqueue("Report.pdf");
+            //documents.Enqueue("Invoice.pdf");
+            //documents.Enqueue("Letter.docx");
+            //documents.Enqueue("Resume.pdf");
+            //documents.Enqueue("Photo.jpg");
+            ////1)
+            //foreach (string item in documents)
+            //{
+            //    Console.WriteLine(item);
+            //}
+            //Console.WriteLine($"Count:{documents.Count}");
+            ////2)
+            //Console.WriteLine($"which document will print next? {documents.Peek()}");
+            ////3)
+            //for (int i = 0; i < 5; i++) 
+            //{ 
+            //    Console.WriteLine($"Printing: {documents.Dequeue()}");
+            //}
+            //Console.WriteLine($"Can I Dequeue? {documents.TryDequeue(out string result)}");
+            #endregion
         }
         static void Print<T>(List<T>list)
         {
