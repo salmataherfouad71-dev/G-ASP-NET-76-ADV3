@@ -154,6 +154,27 @@ namespace Assignment._13
             //}
             //Console.WriteLine($"Can I Dequeue? {documents.TryDequeue(out string result)}");
             #endregion
+            #region Exercise6
+            ////1)
+            //Stack<string> history = new Stack<string>();
+            //history.Push("google.com");
+            //history.Push("github.com");
+            //history.Push("stackoverflow.com");
+            //history.Push("youtube.com");
+            //history.Push("claude.ai");
+            ////2)
+            //Console.WriteLine($"Current Page:{history.Peek()}");
+            ////3)
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    Console.WriteLine($"Leaving:{history.Pop()}");
+            //}
+            ////4)
+            //Console.WriteLine($"Current Page After Leaving:{history.Peek()}");
+            ////5)
+            //history.Clear();
+            //Console.WriteLine($"Can I Pop? {history.TryPop(out string result)}");
+            #endregion
         }
         static void Print<T>(List<T>list)
         {
