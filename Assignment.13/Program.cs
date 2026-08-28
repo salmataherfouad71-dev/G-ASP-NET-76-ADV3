@@ -107,10 +107,43 @@ namespace Assignment._13
             //    Console.Write($"{item.Value} ");
             //}
             #endregion
+            #region Exercise4
+            ////1)
+            //HashSet<string> emailAddresses = new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+            ////2)
+            //{
+            //    "ahmed@test.com", "AHMED@test.com", "sara@test.com", "Sara@Test.Com"
+            //};
+            ////3)
+            //Console.WriteLine($"{emailAddresses.Count}");
+            ////It just two elements because we used case insensitive comparer, so there is 
+            ////two elements repete and in HashSets when an element repete it just ignores it.
+            ////4)
+            //HashSet<int> A = new HashSet<int>() { 1, 2, 3, 4, 5 };
+            //HashSet<int> B = new HashSet<int>() { 4, 5, 6, 7, 8 };
+            //HashSet<int> C = new HashSet<int>() { 1, 2 };
+            ////5)
+            //A.UnionWith( B );
+            //PrintHashSet( A );
+            //A.IntersectWith(B);
+            //PrintHashSet(A);
+            //A.ExceptWith(B);
+            //PrintHashSet( A );
+            ////6)
+            //Console.WriteLine($"[1,2] is a subset of Set A?{A.IsSubsetOf(C)}");
+            #endregion
         }
         static void Print<T>(List<T>list)
         {
             foreach (T item in list)
+            {
+                Console.Write($"{item} ");
+            }
+            Console.WriteLine();
+        }
+        static void PrintHashSet(HashSet<int>set)
+        {
+            foreach (int item in set)
             {
                 Console.Write($"{item} ");
             }
